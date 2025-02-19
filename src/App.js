@@ -4,6 +4,11 @@ import Header from './Header';
 import Bio from './Bio';
 import Hobbies from './Hobbies';
 import Footer from './Footer';
+import User from './User';
+import Counter from './Counter';
+import TemperatureInput from './TemperatureConverter';
+import OnChange from './OnChange';
+import TextInput from './TextInput';
 
 function App() {
   const name = 'Mahesh Kumar';
@@ -17,6 +22,11 @@ function App() {
       <Bio bio={bio} />
       <Hobbies hobbies={hobbies} />
       <Footer email={email} />
+      <User name = 'Mahesh Kumar' age = {19} isStudent = {true}/>
+      <Counter />
+      <TemperatureInput /><br/>
+      <OnChange />
+      <TextInput />
     </div>
   );
 }
